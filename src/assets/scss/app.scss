@@ -1,0 +1,12 @@
+@import "./common/bootstrap.scss";
+
+.cards_overlay {
+  display: flex;
+  flex-wrap: wrap;
+  &_item {
+    max-width: 40%;
+  }
+}
+.cards_overlay_item {
+  width: 40%;
+}
