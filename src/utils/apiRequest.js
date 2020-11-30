@@ -22,7 +22,7 @@ const handleError = (e) => {
 
 export default class apiRequest {
     static get(path) {
-        return request(axios.get(`${API_URI}${path}`));
+        return request(axios.get(`${API_URI}/${path}`));
     }
 
 
